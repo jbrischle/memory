@@ -1,6 +1,6 @@
 'use client';
 import styles from './board.module.scss';
-import { Card } from '@/components/card/card';
+import Card from '../card/card';
 import React, { useEffect } from 'react';
 
 export default function Board({ list }: { list: string[] }) {
