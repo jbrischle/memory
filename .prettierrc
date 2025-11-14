@@ -1,6 +1,0 @@
-{
-  "singleQuote": true,
-  "htmlWhitespaceSensitivity": "ignore",
-  "endOfLine": "crlf",
-  "singleAttributePerLine": true
-}

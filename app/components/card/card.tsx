@@ -1,6 +1,7 @@
 import React from 'react';
+import Image from 'next/image';
 
-export function Card({
+function Card({
   id,
   showBack = true,
 }: {
@@ -12,17 +13,23 @@ export function Card({
 
   if (showBack) {
     return (
-      <img
+      <Image
         src={back}
         alt="pokemon-egg"
+        width={100}
+        height={100}
       />
     );
   } else {
     return (
-      <img
+      <Image
         src={front}
         alt="pokemon"
+        width={100}
+        height={100}
       />
     );
   }
 }
+
+export default Card;
